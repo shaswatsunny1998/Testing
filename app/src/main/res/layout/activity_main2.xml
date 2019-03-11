@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/upperbody"/>
+
+    <RelativeLayout
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="248dp"
+            android:gravity="center"
+            android:text="To use this app you must be logged in"
+            android:textColor="#20B2AA" />
+
+        <Button
+            android:id="@+id/but"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/signup"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="#FF00"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="132dp"
+            android:background="@drawable/btn"
+            android:onClick="clickbtn"
+            android:text="Login"
+            android:textColor="#FFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="51dp"
+            android:fontFamily="cursive"
+            android:text="Login Screen"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="32sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="135dp"
+            android:background="@drawable/window" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="293dp"
+            android:layout_height="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="232dp"
+            android:background="@drawable/username"
+            android:drawableStart="@drawable/ic_people_black_24dp"
+            android:ems="10"
+            android:hint="username"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHint="#FF4500" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="294dp"
+            android:layout_height="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="316dp"
+            android:background="@drawable/username"
+            android:drawableLeft="@drawable/ic_security_black_24dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHint="#FF4500" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
